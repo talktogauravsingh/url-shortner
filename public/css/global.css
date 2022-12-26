@@ -1,0 +1,20 @@
+/* root declaration for url-shortner */
+
+:root{
+    --url-shortner-background : rgba(223, 228, 234, 0.4);
+    --url-shortner-primary-color : #2f3640;
+    --url-shortner-text-color : #57606f;
+}
+
+body{
+    background-color: var(--url-shortner-background) !important;
+}
+
+.u-s-primary-color{
+    color: var(--url-shortner-primary-color);
+}
+
+.u-s-btn-primary-color{
+    color : #ffffff;
+    background-color: var(--url-shortner-primary-color);
+}
